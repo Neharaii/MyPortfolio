@@ -1,36 +1,39 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
-  {
-    id: 1,
-    title: "PCOS Detection System",
-    description:
-      "Built CNN model for medical diagnosis of Polycystic Ovary Syndrome using image data. Developed data preprocessing, feature engineering, and user-friendly web interface for real-time diagnosis.",
-    image: "/projects/pcos.png",
-    tags: ["CNN",  "Medical Diagnosis", "Java"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 2,
-    title: "Full-Stack Blog Platform",
-    description:
-      "Designed and developed complete blogging platform with secure user authentication, REST APIs, and responsive frontend. Implemented Spring Security and CRUD operations for content management.",
-    image: "/projects/blog.png",
-    tags: ["Spring Boot", "React", "MySQL", "REST API", "Spring Security"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 3,
-    title: "Expense Tracker using Spring Boot & JWT",
-    description:
-      "A secure expense tracking application with JWT-based authentication and role-based access control. Built backend APIs with Spring Boot and created responsive frontend for real-time expense management.",
-    image: "/projects/expense.png",
-    tags: ["Java", "Spring Boot", "JWT", "MySQL", "REST API"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+
+    {
+      id: 1,
+      title: "PCOS Detection System",
+      description:
+        "Built a CNN model for medical diagnosis of Polycystic Ovary Syndrome using image data. Developed data preprocessing, feature engineering, and a user-friendly JavaFX interface for real-time diagnosis.",
+      image: "/pcos.png", // remove /projects/
+      tags: ["CNN", "Medical Diagnosis", "Java", "JavaFX"],
+      demoUrl: "#",
+      githubUrl: "https://github.com/Neharaii/PCOS-Detector",
+    },
+    {
+      id: 2,
+      title: "Musify - Music App",
+      description:
+        "Developed a full-stack music streaming application using Spring Boot, MySQL, and React. Implemented user authentication, playlists, and real-time music playback with a modern UI.",
+      image: "/musify.png", // remove /projects/
+      tags: ["Spring Boot", "React", "MySQL", "REST API", "Java"],
+      demoUrl: "#",
+      githubUrl: "https://github.com/Neharaii/music-app",
+    },
+    {
+      id: 3,
+      title: "Personal Portfolio",
+      description:
+        "Created a responsive portfolio website to showcase my projects and skills. Built with modern frontend technologies and smooth animations for an interactive experience.",
+      image: "/portfolio.png", // remove /projects/
+      tags: ["React", "CSS", "JavaScript", "Portfolio"],
+      demoUrl: "#",
+      githubUrl: "https://github.com/Neharaii/MyPortfolio",
+    },
+
+
 ];
 
 export const ProjectsSection = () => {
